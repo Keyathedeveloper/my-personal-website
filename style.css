@@ -12,7 +12,7 @@ body {
   }
 
   .heart {
-    color: hearts;
+    color: red;
     font-size: 36px;
     margin: 5px;
   }

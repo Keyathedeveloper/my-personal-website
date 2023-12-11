@@ -1,3 +1,11 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+document.addEventListener('DOMContentLoaded', function () {
+    const heartContainer = document.getElementById('heart-container');
+
+
+    const heart = document.createElement('div');
+    heart.className = 'heart';
+    heart.innerHTML = '❤️';
+
+
+    heartContainer.appendChild(heart);
+  });

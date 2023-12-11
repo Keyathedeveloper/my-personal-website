@@ -1,3 +1,18 @@
 body {
-    background: lavenderblush;
+    background-color: blush;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  h1 {
+    font-family: 'Arial', sans-serif;
+  }
+
+  .heart {
+    color: hearts;
+    font-size: 36px;
+    margin: 5px;
   }
